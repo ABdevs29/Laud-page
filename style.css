@@ -4,9 +4,6 @@
   text-align: center;
 }
 
-.navigation {
-  padding-left: 10em !important;
-}
 .name {
   padding: 11em;
 }
@@ -15,14 +12,22 @@
   padding-bottom: .25em;
 }
 
+.firstrow {
+  display: flexbox !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
 .left-bio {
   padding-top: 5em !important;
-  padding-left: 11.2em !important;
+  overflow: hidden !important;
+  display: inline-block !important;
 }
 
 .right-bio {
   padding-top: 7em !important;
   padding-left: 6em !important;
+  display: inline-block !important;
 }
 
 .button-1 {
@@ -55,33 +60,32 @@
   width: 100%;
 }
 
+.box-shelf {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+}
+
 .boxes {
-  border: 1px lightgrey solid;
+  border: 2px solid rgb(189, 188, 188);
+  border-radius: 4px;
+  width: 300px;
+  height: 125px;
+  padding: 7px;
+  margin: 4px;
+}
+
+.poetry-section {
+  padding-top: 5em !important;
+  display: block !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .poetry {
-  padding-top: 5em !important;
-  padding-left: 20em !important;
+  flex-shrink: 40% !important;
 }
-
-.poems {
-  padding-top: 5em !important;
-  padding-left: 5em !important;
-}
-
-.listed-1 {
-  padding-top: 3em !important;
-  font-weight: lighter ;
-  font-size: .8em;
-}
-
-.listed-2 {
-  padding-top: 3em !important;
-  padding-left: 6em !important;
-  font-weight: lighter ;
-  font-size: .8em;
-}
-
 .footer {
   background-color: #1B1C1D;
   color: azure;
@@ -94,3 +98,4 @@
 .last {
   border-right:1px solid lightslategrey ;
 }
+
