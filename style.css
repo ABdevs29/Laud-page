@@ -5,7 +5,8 @@
 }
 
 .name {
-  padding: 11em;
+  padding-top: 11em;
+  padding-bottom: 11em;
 }
 
 .fullname {
@@ -13,33 +14,55 @@
 }
 
 .firstrow {
-  display: flexbox !important;
+  display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  padding-top: 5em;
 }
 
 .left-bio {
-  padding-top: 5em !important;
+  flex: 50%;
   overflow: hidden !important;
   display: inline-block !important;
 }
 
 .right-bio {
-  padding-top: 7em !important;
-  padding-left: 6em !important;
-  display: inline-block !important;
+  flex: 50%;
+  vertical-align: center;
+  text-align: center;
 }
 
+.nazrul-image {
+  width: 300px;
+  height: 430px;
+  border-radius: 7%; 
+  border: 2px grey solid;
+}
+
+.wikipedia {
+  text-align: right;
+}
+
+.videos {
+  text-align: center;
+}
+
+.books {
+  text-align: left;
+}
 .button-1 {
   background-color: #E0E1E2 !important;
+  width: 7.5em;
 }
 
 .button-2 {
   background-color: #DB2828 !important;
+  width: 7em;
 }
 
 .button-3 {
   background-color: #F2711C !important;
+  width: 7em;
 }
 
 .firstrow {
