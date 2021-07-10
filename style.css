@@ -39,17 +39,10 @@
   border: 2px grey solid;
 }
 
-.wikipedia {
-  text-align: right;
-}
-
-.videos {
+.buttons-group {
   text-align: center;
 }
 
-.books {
-  text-align: left;
-}
 .button-1 {
   background-color: #E0E1E2 !important;
   width: 7.5em;
@@ -57,11 +50,13 @@
 
 .button-2 {
   background-color: #DB2828 !important;
+  color: white;
   width: 6em;
 }
 
 .button-3 {
   background-color: #F2711C !important;
+  color: white;
   width: 6em;
 }
 
